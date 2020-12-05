@@ -1,0 +1,480 @@
+body {
+  font-family: 'Chela One', cursive;
+
+  color: #000;
+
+  background-color: #fff;
+}
+
+/* ============================
+============= Headeer =========
+=============================== */
+
+.header {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .header_link {
+  font-size: 70px;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.14em;
+
+  color: #000;
+} */
+
+.header_link:hover {
+  color: #000
+}
+
+/* ===================================
+================= Nav ================
+====================================== */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_link {
+  margin-left: 300px;
+  font-size: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+
+  opacity: .70;
+
+  transition: opacity .1s linear;
+}
+
+.nav_link:hover {
+  opacity: 1;
+  color: #000;
+}
+
+.nav_link:first-child {
+  margin-left: 0;
+}
+
+.nav--spinner {
+  margin-left: 40px;
+  width: 4rem;
+  height: 4rem;
+}
+
+/* =================================================================================== */
+
+/* ====================================
+============= Section =================
+======================================= */
+
+.section {
+  background: url('img/bg-intro.png') center no-repeat;
+  background-size: cover;
+}
+
+/* =====================================
+=============== Intro ==================
+======================================== */
+
+.intro {
+  margin: 50px 0;
+
+  height: auto;
+}
+
+.intro_title {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 40px;
+
+}
+
+.intro_title span {
+  font-size: 90px;
+}
+
+.intro_img {
+  border-radius: 60px;
+  box-shadow: 0px 4px 20px 12px rgba(0, 0, 0, 0.25);
+
+}
+
+
+/* ===========================
+============ Sicial ==========
+============================== */
+
+.social_item {
+  width: auto;
+}
+
+.social_icon {
+  width: 120px;
+
+  margin-left: 30px;
+}
+
+.social--m {
+  margin-left: 0;
+}
+
+.social--vk {
+  fill: rgba(76, 117, 163, 1);
+}
+
+.social--youtube {
+  fill: rgba(226, 26, 32, 1);
+}
+
+.social--instagram {
+  fill: url(#rg);
+}
+
+.social--vk:hover {
+  fill: url(#social_hover);
+}
+
+.social--youtube:hover {
+  fill: url(#social_hover)
+}
+
+.social--instagram:hover {
+  fill: url(#social_hover)
+}
+
+@media (max-width: 500px) {
+
+}
+
+/* ======================
+======== Schedule =======
+=========================*/
+
+.schedule {
+  height: auto;
+}
+
+.schedule_title {
+  margin: 50px 0 130px 0;
+
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 0.11em;
+}
+
+.schedule_item {
+  padding: 20px 10px;
+
+  list-style-type: none;
+
+  text-align: center;
+
+  border: 1px solid rgba(96, 90, 90, 1);
+  border-radius: 30px;
+
+}
+
+.schedule_text {
+  font-size: 40px;
+}
+
+
+/* ====================================
+============= Slick Slider ============ 
+=======================================*/
+
+.slick-initialized .slick-slide {
+  display: flex;
+}
+
+.slick-item {
+  justify-content: center;
+}
+
+.slick-item:focus, .slick-item:active {
+  outline: none;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0 0 10px;
+  list-style: none;
+  width: 100%;
+
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+
+  background: #000;
+  border-radius: 50%;
+  border: 0;
+  opacity: .5;
+  cursor: pointer;
+
+  font-size: 0;
+  color: transparent;
+}
+
+.slick-dots .slick-active button {
+  opacity: 1;
+}
+
+.slick-dots button:focus, .slick-dots button:active { 
+  outline: none;
+}
+
+/* =============================
+============= Time =============
+================================ */
+
+.time {
+  margin-bottom: 40px;
+}
+
+.time_title {
+  margin: 100px 0 60px 0;
+
+  font-size: 60px;
+  font-weight: 400;
+
+  text-align: center;
+  letter-spacing: 0.065em;
+}
+
+.time_item {
+  text-align: center;
+  list-style-type: none;
+}
+
+.time_lesseons {
+  font-size: 50px;
+  letter-spacing: 0.065em;
+}
+
+.time_slider {
+  display: flex;
+}
+
+/* =========================
+=========== Footer =========
+============================ */
+
+.footer {
+  height: 300px;
+
+  background-color: rgba(66, 65, 65, 1);
+}
+
+/* ========================
+============= MEDIA =======
+=========================== */
+
+@media (max-width: 1240px) {
+
+  .intro_title {
+    font-size: 33px;
+  }
+
+}
+
+@media (max-width: 1090px) {
+
+  .social_icon {
+    width: 100px;
+  }
+
+}
+
+@media (max-width: 1500px) {
+
+  .nav_link {
+    margin-left: 100px;
+  }
+
+  .nav--spinner {
+    margin-left: 60px;
+  }
+
+}
+
+@media (max-width: 1050px) {
+
+  .intro_title {
+    font-size: 30px;
+  }
+
+  .schedule_title {
+    margin-bottom: 90px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .intro_title {
+    font-size: 27px;
+  }
+
+  .social {
+    margin-bottom: 40px;
+  }
+
+  .time--none {
+    display: none;
+  }
+
+  .nav--spinner {
+    display: none;
+  }
+
+}
+
+@media (max-width: 930px) {
+
+  .social_icon {
+    width: 95px;
+  }
+
+}
+
+@media (max-width: 880px) {
+
+  .time_lesseons {
+    font-size: 45px;
+  }
+  
+}
+
+@media (max-width: 800px) {
+
+  .time_slider {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .time_slider {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 569px) {
+
+  .time_lesseons {
+    font-size: 39px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .time_lesseons {
+    font-size: 37px;
+  }
+
+}
+
+@media (max-width: 440px) {
+
+  .nav_link {
+    margin-left: 40px;
+  }
+
+  .schedule_title {
+    font-size: 50px;
+  }
+
+
+}
+
+@media (max-width: 400px) {
+
+  .nav_link {
+    margin-left: 20px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav_link {
+    margin-left: 0;
+  }
+
+  .intro_title span {
+    font-size: 50px;
+  }
+
+  .social_icon {
+    width: 76px;
+  }
+
+  .time_title {
+    font-size: 50px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .nav_link {
+    margin-left: 0;
+  }
+
+  .intro_title {
+    font-size: 27px;
+  }
+
+  .intro_title span {
+    font-size: 50px;
+  }
+
+  .social_icon {
+    width: 76px;
+  }
+
+  .schedule_title {
+    font-size: 40px;
+  }
+
+  .time_title {
+    font-size: 50px;
+  }
+
+  .slick-dots button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .time_slider {
+    display: block;
+  }
+
+}
