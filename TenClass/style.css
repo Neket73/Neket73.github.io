@@ -476,5 +476,9 @@ body {
   .time_slider {
     display: block;
   }
+  
+  .schedule_text {
+    font-size: 35px;
+  }
 
 }
