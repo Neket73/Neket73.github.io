@@ -1,5 +1,5 @@
 body {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Balsamiq Sans', cursive;
 
   color: #000;
 
@@ -289,6 +289,18 @@ body {
 ============= MEDIA =======
 =========================== */
 
+@media (max-width: 1500px) {
+
+  .nav_link {
+    margin-left: 100px;
+  }
+
+  .nav--spinner {
+    margin-left: 60px;
+  }
+
+}
+
 @media (max-width: 1240px) {
 
   .intro_title {
@@ -305,16 +317,10 @@ body {
 
 }
 
-@media (max-width: 1500px) {
-
-  .nav_link {
-    margin-left: 100px;
+@media (max-width: 1077px) {
+  .time_lesseons {
+    font-size: 40px;
   }
-
-  .nav--spinner {
-    margin-left: 60px;
-  }
-
 }
 
 @media (max-width: 1050px) {
@@ -360,9 +366,15 @@ body {
 @media (max-width: 880px) {
 
   .time_lesseons {
-    font-size: 45px;
+    font-size: 38px;
   }
   
+}
+
+@media (max-width: 850px) {
+  .time_lesseons {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 800px) {
