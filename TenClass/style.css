@@ -439,6 +439,10 @@ body {
   .time_title {
     font-size: 50px;
   }
+  
+  .schedule_title {
+    margin-bottom: 50px;
+  }
 
 }
 
